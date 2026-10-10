@@ -1,0 +1,9 @@
+{
+  "name": "rabbitmq-pubsub-notifications",
+  "version": "1.0.0",
+  "private": true,
+  "description": "RabbitMQ topic pub/sub notification service demo",
+  "main": "src/server.js",
+  "scripts": {"start": "node src/server.js"},
+  "dependencies": {"amqplib": "^0.10.4", "express": "^4.21.2"}
+}
